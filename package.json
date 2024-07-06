@@ -2,7 +2,7 @@
   "name": "crazynote",
   "version": "1.0.0",
   "main": "./bin/crazynote.js",
-  "description": "A simple note taking app",
+  "description": "CrazyNote is a powerful CLI tool designed to generate comprehensive Markdown documentation from your project files.",
   "author": "Sarthak Dwivedi",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
