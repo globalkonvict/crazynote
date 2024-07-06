@@ -24,7 +24,7 @@ npm install -g crazynote
 ### From GitHub
 
 ```sh
-git clone https://github.com/yourusername/crazynote.git
+git clone https://github.com/globalkonvict/crazynote.git
 cd crazynote
 npm install -g
 ```
