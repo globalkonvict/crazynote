@@ -2,6 +2,8 @@
   "name": "crazynote",
   "version": "1.0.0",
   "main": "./bin/crazynote.js",
+  "description": "A simple note taking app",
+  "author": "Sarthak Dwivedi",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,7 +11,6 @@
     "crazynote": "./bin/crazynote.js"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "commander": "^12.1.0",

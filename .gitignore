@@ -7,7 +7,9 @@ node_modules/
 # Ignore build artifacts
 build/
 dist/
-output.md
+/output.md
+/crazyconfig.json
+/template.hbs
 
 # Ignore environment-specific files
 .env
@@ -15,7 +17,3 @@ output.md
 # Ignore editor-specific files
 .vscode/
 .idea/
-
-# Ignore any files or directories starting with a dot
-crazyconfig.json
-template.hbs
