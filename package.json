@@ -1,0 +1,23 @@
+{
+  "name": "crazynote",
+  "version": "1.0.0",
+  "main": "./bin/crazynote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "crazynote": "./bin/crazynote.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.4.2",
+    "handlebars": "^4.7.8",
+    "micromatch": "^4.0.7",
+    "ora": "^8.0.1",
+    "path": "^0.12.7"
+  }
+}

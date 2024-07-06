@@ -1,0 +1,19 @@
+# Project Overview
+
+## Directory Structure
+
+```plaintext
+{{{fileTree}}}
+```
+
+## File Details and Contents
+{{#each files}}
+### {{{this.path}}}
+
+- **Size:** {{this.size}} bytes
+- **Last Modified:** {{this.modified}}
+
+```{{this.language}}
+{{#tripleCurly}}{{{this.content}}}{{/tripleCurly}}
+```
+{{/each}}

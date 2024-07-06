@@ -1,0 +1,23 @@
+# Project Overview
+
+## File Summary
+| File Path | Language | Size (bytes) | Last Modified |
+|-----------|----------|--------------|---------------|
+{{#each files}}
+| {{{this.path}}} | {{this.language}} | {{this.size}} | {{this.modified}} |
+{{/each}}
+
+## Directory Structure
+
+```plaintext
+{{{fileTree}}}
+```
+
+## File Contents
+{{#each files}}
+### {{{this.path}}}
+
+```{{this.language}}
+{{#tripleCurly}}{{{this.content}}}{{/tripleCurly}}
+```
+{{/each}}
