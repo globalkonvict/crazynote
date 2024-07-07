@@ -21,7 +21,10 @@
     "**/*.avi",
     "**/*.ico"
   ],
-  "output": "output.md",
+  "outputDir": "./",
+  "outputFileName": "output",
   "templatePath": "template.hbs",
-  "removeExclusionText": false
+  "exclusionText": " (excluded)",
+  "removeIgnoredFromTree": true,
+  "includeAST": true
 }

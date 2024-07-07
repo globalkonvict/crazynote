@@ -8,6 +8,7 @@ node_modules/
 build/
 dist/
 /output.md
+/output.json
 /crazyconfig.json
 /template.hbs
 

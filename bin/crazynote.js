@@ -4,6 +4,7 @@ const { program } = require("commander");
 const { generateMarkdown } = require("../lib/generateMarkdown");
 const { parseConfig } = require("../lib/parseConfig");
 const { generateDefaults } = require("../lib/generateDefaultConfig");
+const { generateProjectJson } = require("../lib/generateProjectJson");
 const path = require("path");
 
 program
@@ -19,6 +20,7 @@ program
     "--template <name>",
     "Specify a template to use (minimalist, detailed_explorer, colorful_insights)"
   )
+  .option("--json", "Generate a JSON file of the project structure", false)
   .parse(process.argv);
 
 const options = program.opts();
@@ -30,6 +32,11 @@ const options = program.opts();
   } else {
     const configPath = path.resolve(process.cwd(), options.config);
     const config = parseConfig(configPath);
-    await generateMarkdown(config);
+
+    if (options.json) {
+      generateProjectJson(config);
+    } else {
+      await generateMarkdown(config);
+    }
   }
 })();
