@@ -10,21 +10,14 @@
     "**/*test*",
     "template.hbs",
     "output.md",
+    "output.json",
     "crazyconfig.json",
-    "**/*.jpg",
-    "**/*.jpeg",
-    "**/*.png",
-    "**/*.gif",
-    "**/*.mp4",
-    "**/*.mp3",
-    "**/*.mkv",
-    "**/*.avi",
-    "**/*.ico",
-    "**/*.hbs",
-    "**/*.json",
-    "**/*.md"
+    "example/**"
   ],
-  "output": "output.md",
+  "outputDir": "./",
+  "outputFileName": "output",
   "templatePath": "template.hbs",
-  "removeExclusionText": false
+  "exclusionText": " (excluded)",
+  "removeIgnoredFromTree": true,
+  "includeAST": true
 }
