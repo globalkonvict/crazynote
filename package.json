@@ -17,10 +17,10 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "@swc/core": "^1.6.13",
     "commander": "^12.1.0",
-    "esprima": "^4.0.1",
+    "fast-glob": "^3.3.2",
     "fs-extra": "^11.2.0",
-    "glob": "^10.4.2",
     "handlebars": "^4.7.8",
     "micromatch": "^4.0.7",
     "ora": "^8.0.1",

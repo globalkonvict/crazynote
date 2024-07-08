@@ -31,10 +31,10 @@ const options = program.opts();
     generateDefaults(templateName);
   } else {
     const configPath = path.resolve(process.cwd(), options.config);
-    const config = parseConfig(configPath);
+    const config = await parseConfig(configPath);
 
     if (options.json) {
-      generateProjectJson(config);
+      await generateProjectJson(config);
     } else {
       await generateMarkdown(config);
     }
